@@ -1,3 +1,8 @@
+字体查找网站 http://www.qiuziti.com/
+前端资料参考手册网址 http://www.css88.com
+
+
+
 1.让文字在div内垂直居中的话,line-height值等于其div高度
 2.font-weight：bold/数值
 3.dispaly：public 把行级变块级，从而有宽高特性具有块级的特征，比如a
