@@ -3,7 +3,10 @@
 3.dispaly：public 把行级变块级，从而有宽高特性具有块级的特征，比如a
          ：inline 把块级变行级，从而有水平特性具有行级的特性
          ：inline-block 行，块级特性都有，水平+宽高
-4.letter-spacing:字间距（字母间距）        
+4.letter-spacing:字间距（字母间距）  
+5.给图片设置vertical-aligh:bottom或给容器font-size:0 属性
+都可以解决两图片之间的空隙问题（底层原因是图片的根源也是由字节组成的，字节的话也有行高等属性）
+
          
          
          
