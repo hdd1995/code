@@ -1,5 +1,6 @@
 字体查找网站 http://www.qiuziti.com/
 前端资料参考手册网址 http://www.css88.com
+设计欣赏网站（资源下载、高清图库、设计教程、灵感创意、界面设计、网站模板）http://bannerdesign.cn/?page_id=18
 
 
 
@@ -11,6 +12,7 @@
 4.letter-spacing:字间距（字母间距）  
 5.给图片设置vertical-aligh:bottom或给容器font-size:0 属性
 都可以解决两图片之间的空隙问题（底层原因是图片的根源也是由字节组成的，字节的话也有行高等属性）
+
 
          
          
