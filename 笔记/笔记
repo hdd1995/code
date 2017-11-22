@@ -12,7 +12,13 @@
 4.letter-spacing:字间距（字母间距）  
 5.给图片设置vertical-aligh:bottom或给容器font-size:0 属性
 都可以解决两图片之间的空隙问题（底层原因是图片的根源也是由字节组成的，字节的话也有行高等属性）
-
+6.制作三角形
+div{
+   width:0;
+   height:0;
+   border:10px transparent solid;    transparent四周透明
+   border-right:40px #f00 solid;     右边三角形为红色
+}
 
          
          
