@@ -6,11 +6,12 @@
 
 1.让文字在div内垂直居中的话,line-height值等于其div高度
 2.font-weight：bold/数值
-3.dispaly：public 把行级变块级，从而有宽高特性具有块级的特征，比如a
+3.dispaly：block 把行级变块级，从而有宽高特性具有块级的特征，比如a
          ：inline 把块级变行级，从而有水平特性具有行级的特性
          ：inline-block 行，块级特性都有，水平+宽高
 4.letter-spacing:字间距（字母间距）  
 5.给图片设置vertical-aligh:bottom或给容器font-size:0 属性
+在某些浏览区，图片与图片容器之间会自带一个间距，去掉间距 img{display:block} img{vertical-align:top}
 都可以解决两图片之间的空隙问题（底层原因是图片的根源也是由字节组成的，字节的话也有行高等属性）
 6.制作三角形
 div{
@@ -19,7 +20,14 @@ div{
    border:10px transparent solid;    transparent四周透明
    border-right:40px #f00 solid;     右边三角形为红色
 }
-
-         
+7.pisition位置（定位）
+    absolute 绝对定位：坐标点是基于浏览器窗口的四个坐标点
+                      加了绝对定位的标记是不占位的
+                      
+    relative 相对定位：只是元素发生了位移上的变化
+    覆盖的元素需要使用时absolute
+    他的父级需要使用relative
+    这样的话绝对定位元素的坐标点就会基于他的父元素
+    
          
          
