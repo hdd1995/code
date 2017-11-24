@@ -46,4 +46,10 @@ css3.0新增选择器
 2.伪元素选择器
   ：first-child  :last-child 某父元素内的第一个和最后一个标记
   ：nth-child() 某父元素内的第几个标记  位置与标记名称一致
-         
+  
+3.清除float方法，清除不上受前面float元素的营销
+  1.需要在一组float的元素的最后面加一个div:<div class="clear"></div>  在css添加一个.clear{clear:both}
+  2.在给父元素添加一个overflow：hidden;触发高度，溢出的隐藏掉   给高度之后overflow:scroll   溢出的方式是以滚动条
+  3.在css，clearfix:after{content:'';display:block;height:0;clear:both;}
+  需要给html元素添加一个clearfix的名称
+
