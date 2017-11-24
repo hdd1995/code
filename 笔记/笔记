@@ -32,6 +32,9 @@ div{
     加了固定定位的元素，四个坐标点基于浏览器，不占位，宽度为自适应（内容有多少，显示有多宽）
 8.left right水平   top buttom垂直      只要超过父级盒边的位置都为负值
 9.z-index：z轴   层级关系   z-index值越大，他就越在上面
+10.font：
+        font-family;font-style;font-weight;font-size;line-height;
+         italic bold 12px/3.5 "黑体"   字体属性的复合写法 斜体 粗体 字体大小/行高px，行高是字体的3.5倍  
     
          
          
