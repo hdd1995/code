@@ -35,7 +35,9 @@ div{
 10.font：
         font-family;font-style;font-weight;font-size;line-height;
          italic bold 12px/3.5 "黑体"   字体属性的复合写法 斜体 粗体 字体大小/行高px，行高是字体的3.5倍  
-    
+11.text-indent 首行缩进、
+12.vertical-top 顶部对齐
+13.cursor：pointer改变鼠标的形状变成抓手
 
 
 HTML5+css3笔记
@@ -49,7 +51,10 @@ css3.0新增选择器
   
 3.清除float方法，清除不上受前面float元素的营销
   1.需要在一组float的元素的最后面加一个div:<div class="clear"></div>  在css添加一个.clear{clear:both}
-  2.在给父元素添加一个overflow：hidden;触发高度，溢出的隐藏掉   给高度之后overflow:scroll   溢出的方式是以滚动条
+  
+  2.在给父元素添加一个overflow：hidden;触发高度，溢出的隐藏掉   
+  给高度之后overflow:scroll   溢出的方式是以滚动条
+  
   3.在css，clearfix:after{content:'';display:block;height:0;clear:both;}
   需要给html元素添加一个clearfix的名称
 
