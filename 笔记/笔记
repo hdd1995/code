@@ -56,5 +56,5 @@ css3.0新增选择器
   给高度之后overflow:scroll   溢出的方式是以滚动条
   
   3.在css，clearfix:after{content:'';display:block;height:0;clear:both;}
-  需要给html元素添加一个clearfix的名称
-
+  需要给HTML元素添加一个clearfix的名称
+4.box-sizing:border-boz;
