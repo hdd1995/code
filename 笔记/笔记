@@ -58,3 +58,4 @@ css3.0新增选择器
   3.在css，clearfix:after{content:'';display:block;height:0;clear:both;}
   需要给HTML元素添加一个clearfix的名称
 4.box-sizing:border-box; padding与border不会影响盒子的实际大小
+5.transition过渡
