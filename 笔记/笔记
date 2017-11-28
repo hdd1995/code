@@ -62,3 +62,5 @@ css3.0新增选择器
 6.transform旋转    li a:hover img{transform:translatex(-10pt);  定义转换，只是用x轴的值 。具体可去为w3cshool参考
 7.transparent透明  如果一个元素覆盖在另外一个元素之上，而你想显示下面的元素，这时你就需要把上面这个元素的background设置为transparent 
   例如border-right:14px transparent solid;
+  或者   border：14px  #f6f6f6 solid
+         border-color:#f6f6f6 transparent transparent 右边和下边透明
