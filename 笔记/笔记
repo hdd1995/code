@@ -60,4 +60,5 @@ css3.0新增选择器
 4.box-sizing:border-box; padding与border不会影响盒子的实际大小
 5.transition过渡   li img{transtion：all 0.5s}  时间
 6.transform旋转    li a:hover img{transform:translatex(-10pt);  定义转换，只是用x轴的值 。具体可去为w3cshool参考
-7.transparent透明  如果一个元素覆盖在另外一个元素之上，而你想显示下面的元素，这时你就需要把上面这个元素的background设置为transparent
+7.transparent透明  如果一个元素覆盖在另外一个元素之上，而你想显示下面的元素，这时你就需要把上面这个元素的background设置为transparent 
+  例如border-right:14px transparent solid;
