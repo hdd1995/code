@@ -60,11 +60,11 @@ css3.0新增选择器
 4.box-sizing:border-box; padding与border不会影响盒子的实际  大小
 5.transition过渡  动画的属性 动画时间  延时时间 动画类型 li img{transtion：all 0.5s}  时间
 6.transform旋转    li a:hover img{transform:translatex(-10pt);  定义转换，只是用x轴的值 。具体可去为w3cshool参考
-     a、rotate()旋转
+     a、rotate()旋转    rotateX(90deg);沿X轴旋转90度
      b、scale()缩放
      c、skew()倾斜
      d、translate(水平方向的位移，垂直方向的位移)
-  transform-origin:x y;旋转的基点；
+  transform-origin:x y;旋转的基点；  center center
   transform-style:preserve-3d;设置3d变形的空间。
   perspect:透视点；值越小，透视越明显。（景深）
 
