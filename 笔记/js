@@ -25,3 +25,19 @@ animation：  动画
 -ms   微软
 -o-   欧朋
 background-image:
+
+
+
+
+js三部分构成： ECMAscripte ecma欧洲计算机联盟   js核心（标准）es5   es6
+   DOM  文档对象模型  documnent object model
+   bom   浏览器对象   browser object model
+   
+ 变量：为了存储数据（向内存申请空间）
+ 关键字  var
+ js基本数据类型：number（数字），字符串string，boolean，null,undefine 
+   对象数据类型：
+   运算符（表达式）：+,-,*,/,%(求余数)   a%2=0;偶数
++除了做数学运算之外，如果+号两边有一个为字符串类型，那代表的就是字符串的拼接     '688'=6+'88'
+-号：如果是数字才会进行数学运算，如果-号又一边为字符串（内容为数字组合），把字符串转为numbur     -82=6-'88'
+运算失败就会返回NAN    NAN=6-'88JSAF'
