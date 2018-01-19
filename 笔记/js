@@ -1,1 +1,26 @@
+caniuse.com  此网址可以查看标签或者属于支持浏览器情况
+ie浏览器的兼容
+ie6.7.8.9+
+body{
+background:red/9;     属性值的后面添加/9代表ie9以下的版本
+}
+属性的前面* ie78
+属性的前面_ ie6
 
+
+ie6常见的bug
+
+1.双倍边距（float与margin产生）
+.f1{float:left;dispaly:inline;}行级标记就不会出现次bug
+2.三像素的bug;一个float的元素后面跟着一个非float的元素；
+给添加float的元素添加一个margin-right:-3px;
+
+css3属性兼容性处理：
+css3某些属性添加一些私有前缀，判断属性还是属性值是否是css3新增
+
+私有前缀
+animation：  动画
+-webkit-animation:  谷歌
+-moz-animation:  火狐
+-ms   微软
+-o-   欧朋
