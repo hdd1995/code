@@ -1,2 +1,10 @@
-模板可以放在示例中
-v-on:指令简写是@
+挂载点：el属性对应的dom元素，id，class
+
+模板：在挂载点内的所有内容，视频中div里面的内容。模板也可以放在示例中在Vue实例中用template属性替换。
+
+
+VUE点击事件绑定：
+ 1.  数据绑定，{{}}
+ 2.  事件绑定，v-on:/@     v-on:click=""可以简化成@click=""  （v-on:指令简写是@，进行事件的绑定）
+ 3.  属性绑定，v-bind:/      :v-bind:title="title"可以简化成:title="title"  （ v-bind:指令简写是:，用于属性值绑定）
+ 4.  双向绑定，v-model
