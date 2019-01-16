@@ -8,3 +8,12 @@ VUE点击事件绑定：
  2.  事件绑定，v-on:/@     v-on:click=""可以简化成@click=""  （v-on:指令简写是@，进行事件的绑定）
  3.  属性绑定，v-bind:/      :v-bind:title="title"可以简化成:title="title"  （ v-bind:指令简写是:，用于属性值绑定）
  4.  双向绑定，v-model
+
+computed:{    name:fcunction(){    }}
+
+这是一个计算器，可以计算进行各类基本操作；
+
+watch:{name:function{
+
+}}        这里可以侦听对应属性或者变量的变化
+
